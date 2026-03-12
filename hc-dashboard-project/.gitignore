@@ -1,0 +1,26 @@
+# Excel temporary and lock files
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+*.tmp
+
+# Power BI temp files
+*.pbix.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Windows temp
+*.lnk
+
+# Python (if scripts are added later)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+
+# Node (if JS tools added)
+node_modules/
